@@ -1,0 +1,29 @@
+{
+    "name": "e-commerce_app3",
+    "version": "1.0.0",
+    "description": "Learning GraphQL",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/index",
+        "dev": "nodemon ./src/index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ononogbu Ebenezer",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    },
+    "dependencies": {
+        "@graphql-tools/schema": "^9.0.1",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.3.0",
+        "lodash": "^4.17.21",
+        "mongoose": "^6.5.2",
+        "uuid": "^8.3.2"
+    },
+    "nodemonConfig": {
+        "ext": "js,mjs,json,graphql"
+    }
+}
