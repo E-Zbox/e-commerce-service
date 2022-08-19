@@ -146,6 +146,6 @@ Cheers 🥂 you have successfully ran the code 🎉🍾.
 
 Developed using:
 
--   [ExpressJS](https://www.express.js)
--   [GraphQL](https://www.howtographql.com)
--   [Mongoose](https://www.mongoose.io)
+-   [ExpressJS](http://expressjs.com/)
+-   [GraphQL](https://graphql.org/)
+-   [Mongoose](https://mongoosejs.com/docs/)
