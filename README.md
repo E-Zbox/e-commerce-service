@@ -98,7 +98,7 @@ The resolvers folder, contains the resolver function handlers for the various sc
 -   The `products` root-field returns the all available products, and filters the products based on **onSale** and **avgRating** filter arguments provided (optionally), by the user
 -   The `product` root-field returns a single product, based on the _productId_ argument, used to find a single product if available
 -   The `categories` root-field returns all the categories available.
--   E.T.C
+-   et.c
 
 ## Running the code
 
@@ -106,10 +106,34 @@ To run the code, make sure you are using **node version >=14.17.0**, **npm versi
 
 Follow the below steps, to run the code using your terminal
 
--   Cloning the project `$ git clone https://www.github.com/E-Zbox/e-commerce-app.git`
--   Switch directories `$ cd e-commerce-app`
--   Installing project dependencies `$ npm install`
--   Starting the express server `$ npm run dev` or `$ npm start`
+-   Cloning the project
+
+```shell
+$ git clone https://www.github.com/E-Zbox/e-commerce-app.git
+```
+
+-   Switch directories
+
+```shell
+$ cd e-commerce-app
+```
+
+-   Installing project dependencies
+
+```shell
+$ npm install
+```
+
+-   Starting the express server
+
+```shell
+$ npm run dev
+```
+
+```shell
+$ npm start
+```
+
 -   Using Postman, navigate to `localhost:<PORT>/graphql` and run the various queries and mutation defined in the [schema file](./src/schema.graphql)
 
 Cheers 🥂 you have successfully ran the code 🎉🍾.
