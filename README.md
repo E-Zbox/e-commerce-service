@@ -126,13 +126,11 @@ $ npm install
 
 -   Starting the express server
 
-```shell
+````shell
 $ npm run dev
-```
-
-```shell
+``` or ```shell
 $ npm start
-```
+````
 
 -   Using Postman, navigate to `localhost:<PORT>/graphql` and run the various queries and mutation defined in the [schema file](./src/schema.graphql)
 
