@@ -136,7 +136,7 @@ or
 $ npm start
 ```
 
--   Using Postman, navigate to ```localhost:<PORT>/graphql``` and run the various queries and mutation defined in the [schema file](./src/schema.graphql)
+-   Using Postman, navigate to `localhost:<PORT>/graphql` and run the various queries and mutation defined in the [schema file](./src/schema.graphql)
 
 Cheers 🥂 you have successfully ran the code 🎉🍾.
 
